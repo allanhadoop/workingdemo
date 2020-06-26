@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 
 
-dataset = pd.read_csv('/Users/allan/Desktop/AI-ML-DL/Flask-Heroku-Model/StudentData.csv')
+dataset = pd.read_csv('StudentData.csv')
 dataset.head()  
 
 X = dataset.iloc[:, :3]
